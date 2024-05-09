@@ -26,6 +26,6 @@ npx nx generate @nx/workspace:remove amazing-api-e2e
 
 # GitHub CI
 
-````shell
+```shell
 npx nx generate @nx/workspace:ci-workflow --ci=github
 ```
