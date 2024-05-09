@@ -23,3 +23,9 @@ npx nx generate @nx/node:application --framework=nest --name="amazing-api" --dir
 # e2e not necessary at the moment
 npx nx generate @nx/workspace:remove amazing-api-e2e
 ```
+
+# GitHub CI
+
+````shell
+npx nx generate @nx/workspace:ci-workflow --ci=github
+```
