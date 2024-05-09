@@ -18,9 +18,8 @@ npx nx generate @nx/eslint:convert-to-flat-config
 # required for the next step
 npx nx add @nx/node
 
-npx nx generate @nx/node:application --framework=nest --name="amazing-api" --directory="apps/amazing-api" --projectNameAndRootFormat="as-provided"
+npx nx generate @nx/node:application --framework=nest --name="amazing-api" --directory="apps/amazing-api" --projectNameAndRootFormat="as-provided" --frontendProject="amazing-web"
 
 # e2e not necessary at the moment
 npx nx generate @nx/workspace:remove amazing-api-e2e
 ```
-
